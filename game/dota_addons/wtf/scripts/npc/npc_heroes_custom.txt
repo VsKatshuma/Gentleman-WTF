@@ -1,0 +1,103 @@
+// Dota Heroes File
+// NOTE: This is not for creating new heroes, this is for taking a currently existing hero as a template and overriding
+// the specified key-value combinations.  Use override_hero <hero_to_override> for this.
+
+"DOTAHeroes"
+{
+//	//=================================================================================================================
+//	// HERO: Templar Assassin
+//	//=================================================================================================================
+//	"npc_dota_hero_templar_assassin_template"
+//	{
+//		"override_hero"			"npc_dota_hero_templar_assassin"		// Hero to override
+//		"Ability1"			"templar_assassin_refraction_holdout"		// Ability 1
+//		"VisionNighttimeRange"		"1800"						// Range of vision at night time.
+//	}
+
+	"npc_dota_hero_centaur"
+	{
+		"override_hero" "npc_dota_hero_centaur"
+		"Ability6" "banned_ability"
+	}
+
+	"npc_dota_hero_wisp"
+	{
+		"override_hero" "npc_dota_hero_wisp"
+		"Ability6" "banned_ability"
+	}
+
+	"npc_dota_hero_omniknight"
+	{
+		"override_hero" "npc_dota_hero_omniknight"
+		"Ability6" "banned_ability"
+	}
+
+//	"npc_dota_hero_gyrocopter"
+//	{
+//		"override_hero" "npc_dota_hero_gyrocopter"
+//		"Ability17" "special_bonus_cast_range_50"
+//	}
+
+	"npc_dota_hero_mirana"
+	{
+		"override_hero" "npc_dota_hero_mirana"
+		"Ability6" "banned_ability"
+	}
+
+	"npc_dota_hero_spectre"
+	{
+		"override_hero" "npc_dota_hero_spectre"
+		"Ability4" "banned_ability"
+		"Ability5" "banned_ability"
+		"Ability6" "banned_ability"
+	}
+
+	"npc_dota_hero_chen"
+	{
+		"override_hero" "npc_dota_hero_chen"
+		"Ability6" "banned_ability"
+	}
+
+	"npc_dota_hero_invoker"
+	{
+		"override_hero" "npc_dota_hero_invoker"
+		"Ability13" "banned_ability"
+	}
+
+	"npc_dota_hero_furion"
+	{
+		"override_hero" "npc_dota_hero_furion"
+		"Ability6" "banned_ability"
+	}
+
+	"npc_dota_hero_puck"
+	{
+		"override_hero" "npc_dota_hero_puck"
+		"Ability3" "banned_ability"
+	}
+
+	"npc_dota_hero_silencer"
+	{
+		"override_hero" "npc_dota_hero_silencer"
+		"Ability6" "banned_ability"
+	}
+
+	"npc_dota_hero_skywrath_mage"
+	{
+		"override_hero" "npc_dota_hero_skywrath_mage"
+		"Ability14" "special_bonus_cast_range_50"
+	}
+
+	"npc_dota_hero_zuus"
+	{
+		"override_hero" "npc_dota_hero_zuus"
+		"Ability4" "banned_ability"
+		"Ability6" "banned_ability"
+	}
+
+	"npc_dota_hero_dawnbreaker"
+	{
+		"override_hero" "npc_dota_hero_dawnbreaker"
+		"Ability6" "banned_ability"
+	}
+}

@@ -1,0 +1,10 @@
+EmptySteamDepot
+steam_appid.txt
+content/*
+game/*
+!content/dota_addons/
+!game/dota_addons/
+content/dota_addons/*
+game/dota_addons/*
+!content/dota_addons/wtf/
+!game/dota_addons/wtf/

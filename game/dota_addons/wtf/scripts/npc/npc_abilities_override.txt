@@ -1,0 +1,107 @@
+"DOTAAbilities"
+{
+	"rattletrap_rocket_flare"
+	{
+		"AbilityCastRange"				"675"
+	}
+
+	"treant_living_armor"
+	{
+		"AbilityCastRange"				"700"
+	}
+
+	"windrunner_gale_force"
+	{
+		"AbilityCastRange"				"1500"
+	}
+
+	"pugna_nether_blast"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"structure_damage_mod"		"0.25"
+			}
+		}
+	}
+
+	"special_bonus_unique_wraith_king_5"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"value"				"1"
+				"ad_linked_ability"		"skeleton_king_vampiric_aura" // This line is required for Ability Draft to correctly choose talents.
+			}
+		}
+	}
+
+	"troll_warlord_rampage" "REMOVE"
+
+	"item_blink" "REMOVE"
+	"item_recipe_overwhelming_blink" "REMOVE"
+	"item_overwhelming_blink" "REMOVE"
+	"item_recipe_swift_blink" "REMOVE"
+	"item_swift_blink" "REMOVE"
+	"item_recipe_arcane_blink" "REMOVE"
+	"item_arcane_blink" "REMOVE"
+
+	"item_recipe_sheepstick" "REMOVE"
+	"item_sheepstick" "REMOVE"
+
+	"item_recipe_abyssal_blade" "REMOVE"
+	"item_abyssal_blade" "REMOVE"
+
+	"item_recipe_bloodthorn" "REMOVE"
+	"item_bloodthorn" "REMOVE"
+
+	"item_recipe_orchid" "REMOVE"
+	"item_orchid" "REMOVE"
+
+	"item_recipe_dagon" "REMOVE"
+	"item_recipe_dagon_2" "REMOVE"
+	"item_recipe_dagon_3" "REMOVE"
+	"item_recipe_dagon_4" "REMOVE"
+	"item_recipe_dagon_5" "REMOVE"
+	"item_dagon" "REMOVE"
+	"item_dagon_2" "REMOVE"
+	"item_dagon_3" "REMOVE"
+	"item_dagon_4" "REMOVE"
+	"item_dagon_5" "REMOVE"
+
+	"item_recipe_ethereal_blade" "REMOVE"
+	"item_ethereal_blade" "REMOVE"
+
+	"item_recipe_wind_waker" "REMOVE"
+	"item_wind_waker" "REMOVE"
+
+	"item_recipe_cyclone" "REMOVE"
+	"item_cyclone" "REMOVE"
+
+	"item_recipe_hurricane_pike" "REMOVE"
+	"item_hurricane_pike" "REMOVE"
+
+	"item_recipe_force_staff" "REMOVE"
+	"item_force_staff" "REMOVE"
+
+	"item_recipe_silver_edge" "REMOVE"
+	"item_silver_edge" "REMOVE"
+
+	"item_recipe_invis_sword" "REMOVE"
+	"item_invis_sword" "REMOVE"
+
+	"item_recipe_glimmer_cape" "REMOVE"
+	"item_glimmer_cape" "REMOVE"
+
+	"item_shadow_amulet" "REMOVE"
+
+	"item_recipe_gungir" "REMOVE"
+	"item_gungir" "REMOVE"
+
+	"item_recipe_rod_of_atos" "REMOVE"
+	"item_rod_of_atos" "REMOVE"
+}

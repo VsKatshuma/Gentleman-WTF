@@ -16,7 +16,7 @@ heroesCustom = {"npc_dota_hero_antimage","npc_dota_hero_axe","npc_dota_hero_bane
 -- Contains 112 heroes, 9 heroes have been removed
 -- Removed heroes: "npc_dota_hero_wisp","npc_dota_hero_lycan","npc_dota_hero_viper","npc_dota_hero_ancient_apparition","npc_dota_hero_chen","npc_dota_hero_enchantress","npc_dota_hero_silencer","npc_dota_hero_visage","npc_dota_hero_spectre"
 
-heroesTest = {"npc_dota_hero_naga_siren","npc_dota_hero_windrunner"}
+heroesTest = {"npc_dota_hero_windrunner","npc_dota_hero_kunkka"}
 
 function Precache( context )
 --	[[
@@ -100,12 +100,17 @@ function ResetAbilities( eventInfo )
 --			caster:GiveMana( 75 )
 			teleport:EndCooldown()
 		end
-	else
+	elseif eventInfo.abilityname ~= "earth_spirit_stone_caller" then
 		local ability = caster:FindAbilityByName( eventInfo.abilityname )
-		if ability ~= nil then
+		if ability ~= nil  then
 			caster:GiveMana( 10000 )
 			ability:EndCooldown()
 			ability:RefreshCharges()
+
+			-- Balance Kunkka
+			if eventInfo.abilityname == "kunkka_torrent_storm" then
+				ability:StartCooldown( 1.0 )
+			end
 
 			-- Balance Leshrac
 			if eventInfo.abilityname == "leshrac_diabolic_edict" then
@@ -132,6 +137,97 @@ function ResetAbilities( eventInfo )
 					end
 				end
 			end
+
+			-- Windranger & Lich cooldown penalty
+			if eventInfo.abilityname == "windrunner_shackleshot" or eventInfo.abilityname == "lich_sinister_gaze" then
+				local penalty = nil
+				if not caster:HasModifier( "modifier_cooldown_penalty" ) then
+					penalty = caster:AddNewModifier( caster, ability, "modifier_cooldown_penalty", nil )
+					penalty:IncrementStackCount()
+					penalty:SetDuration( 10.0, true )
+				else
+					penalty = caster:FindModifierByName( "modifier_cooldown_penalty" )
+					penalty:IncrementStackCount()
+					penalty:SetDuration( 10.0, true )
+				end
+				local penaltyStacks = penalty:GetStackCount()
+				if penaltyStacks >= 10 then
+					ability:StartCooldown( penaltyStacks / 25 )
+				end
+			end
+
+			-- Rubick & Shadow Demon cooldown penalty
+			if eventInfo.abilityname == "rubick_telekinesis" or eventInfo.abilityname == "shadow_demon_disruption" then
+				local penalty = nil
+				if not caster:HasModifier( "modifier_cooldown_penalty" ) then
+					penalty = caster:AddNewModifier( caster, ability, "modifier_cooldown_penalty", nil )
+					penalty:IncrementStackCount()
+					penalty:SetDuration( 10.0, true )
+				else
+					penalty = caster:FindModifierByName( "modifier_cooldown_penalty" )
+					penalty:IncrementStackCount()
+					penalty:SetDuration( 10.0, true )
+				end
+				local penaltyStacks = penalty:GetStackCount()
+				if penaltyStacks >= 10 then
+					ability:StartCooldown( penaltyStacks / 20 )
+				end
+			end
+
+			-- Naga Siren & Winter Wyvern cooldown penalty
+			if eventInfo.abilityname == "naga_siren_ensnare" or eventInfo.abilityname == "winter_wyvern_winters_curse" then
+				local penalty = nil
+				if not caster:HasModifier( "modifier_cooldown_penalty" ) then
+					penalty = caster:AddNewModifier( caster, ability, "modifier_cooldown_penalty", nil )
+					penalty:IncrementStackCount()
+					penalty:SetDuration( 10.0, true )
+				else
+					penalty = caster:FindModifierByName( "modifier_cooldown_penalty" )
+					penalty:IncrementStackCount()
+					penalty:SetDuration( 10.0, true )
+				end
+				local penaltyStacks = penalty:GetStackCount()
+				if penaltyStacks >= 10 then
+					ability:StartCooldown( penaltyStacks / 15 )
+				end
+			end
+
+			-- Faceless Void cooldown penalty
+			if eventInfo.abilityname == "faceless_void_chronosphere" then
+				local penalty = nil
+				if not caster:HasModifier( "modifier_cooldown_penalty" ) then
+					penalty = caster:AddNewModifier( caster, ability, "modifier_cooldown_penalty", nil )
+					penalty:IncrementStackCount()
+					penalty:SetDuration( 10.0, true )
+				else
+					penalty = caster:FindModifierByName( "modifier_cooldown_penalty" )
+					penalty:IncrementStackCount()
+					penalty:SetDuration( 10.0, true )
+				end
+				local penaltyStacks = penalty:GetStackCount()
+				if penaltyStacks >= 10 then
+					ability:StartCooldown( penaltyStacks / 10 )
+				end
+			end
+
+			-- Meepo cooldown penalty
+			if eventInfo.abilityname == "meepo_earthbind" then
+				local penalty = nil
+				if not caster:HasModifier( "modifier_cooldown_penalty" ) then
+					penalty = caster:AddNewModifier( caster, ability, "modifier_cooldown_penalty", nil )
+					penalty:IncrementStackCount()
+					penalty:SetDuration( 10.0, true )
+				else
+					penalty = caster:FindModifierByName( "modifier_cooldown_penalty" )
+					penalty:IncrementStackCount()
+					penalty:SetDuration( 10.0, true )
+				end
+				local penaltyStacks = penalty:GetStackCount()
+				if penaltyStacks >= 5 then
+					ability:StartCooldown( penaltyStacks / 5 )
+				end
+			end
+
 		end
 
 		-- Deal with Wraith King
@@ -364,6 +460,8 @@ function GentlemanWTF:InitGameMode()
 --	GameRules:GetGameModeEntity():SetBountyRuneSpawnInterval( 3 )
 --	GameRules:GetGameModeEntity():SetPowerRuneSpawnInterval( 2 )
 --	GameRules:GetGameModeEntity():SetThink( "OnThink", self, "GlobalThink", 0 )
+
+	LinkLuaModifier( "modifier_cooldown_penalty", LUA_MODIFIER_MOTION_NONE )
 
 	-- Change random seed
 	local timeText = string.gsub( string.gsub( GetSystemTime(), ':', '' ), '0', '' )

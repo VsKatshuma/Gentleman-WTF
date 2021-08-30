@@ -15,6 +15,24 @@
 		"AbilityCastRange"				"1500"
 	}
 
+	"brewmaster_storm_cyclone"
+	{
+		"AbilityCastPoint"				"0.5"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"duration_hero"			"3.0"
+			}
+		}
+	}
+
+	"earth_spirit_stone_caller"
+	{
+		"AbilityChargeRestoreTime"			"1"
+	}
+
 	"leshrac_diabolic_edict"
 	{
 		"AbilitySpecial"
@@ -48,6 +66,19 @@
 			{
 				"var_type"			"FIELD_FLOAT"
 				"duration"			"5.0 5.0 5.0"
+			}
+		}
+	}
+
+	"nyx_assassin_spiked_carapace"
+	{
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"stun_duration"			"0.6 1.0 1.4 1.8"
+				"LinkedSpecialBonus"		"special_bonus_unique_nyx_6"
 			}
 		}
 	}

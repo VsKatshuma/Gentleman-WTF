@@ -65,7 +65,7 @@
 	"npc_dota_hero_jakiro" "1"
 	"npc_dota_hero_batrider" "1"
 	"npc_dota_hero_chen" "0"
-	"npc_dota_hero_spectre" "1"
+	"npc_dota_hero_spectre" "0"
 	"npc_dota_hero_ancient_apparition" "0"
 	"npc_dota_hero_doom_bringer" "1"
 	"npc_dota_hero_ursa" "1"

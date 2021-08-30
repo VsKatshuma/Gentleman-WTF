@@ -15,6 +15,43 @@
 		"AbilityCastRange"				"1500"
 	}
 
+	"leshrac_diabolic_edict"
+	{
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"tower_bonus"			"-75"
+			}
+		}
+	}
+
+	"naga_siren_rip_tide"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"chance"			"50"
+				"LinkedSpecialBonus"		"special_bonus_unique_naga_siren_5"
+			}
+		}
+	}
+
+	"naga_siren_song_of_the_siren"
+	{
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"duration"			"5.0 5.0 5.0"
+			}
+		}
+	}
+
 	"pugna_nether_blast"
 	{
 		"AbilitySpecial"
@@ -22,7 +59,36 @@
 			"01"
 			{
 				"var_type"			"FIELD_FLOAT"
-				"structure_damage_mod"		"0.25"
+				"structure_damage_mod"		"0.15"
+			}
+		}
+	}
+
+	"pugna_nether_ward"
+	{
+		"AbilityDuration"				"18"
+	}
+
+	"razor_eye_of_the_storm"
+	{
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"duration"			"15.0"
+			}
+		}
+	}
+
+	"techies_land_mines"
+	{
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"building_damage_pct"		"15"
 			}
 		}
 	}

@@ -7,14 +7,16 @@ end
 livesRadiant = 40
 livesDire = 40
 
+spiritBears = { "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty" }
+
 heroesList = {"npc_dota_hero_antimage","npc_dota_hero_axe","npc_dota_hero_bane","npc_dota_hero_bloodseeker","npc_dota_hero_crystal_maiden","npc_dota_hero_drow_ranger","npc_dota_hero_earthshaker","npc_dota_hero_juggernaut","npc_dota_hero_mirana","npc_dota_hero_morphling","npc_dota_hero_nevermore","npc_dota_hero_phantom_lancer","npc_dota_hero_puck","npc_dota_hero_pudge","npc_dota_hero_razor","npc_dota_hero_sand_king","npc_dota_hero_storm_spirit","npc_dota_hero_sven","npc_dota_hero_tiny","npc_dota_hero_vengefulspirit","npc_dota_hero_windrunner","npc_dota_hero_zuus","npc_dota_hero_kunkka","npc_dota_hero_lina","npc_dota_hero_lion","npc_dota_hero_shadow_shaman","npc_dota_hero_slardar","npc_dota_hero_tidehunter","npc_dota_hero_witch_doctor","npc_dota_hero_lich","npc_dota_hero_riki","npc_dota_hero_enigma","npc_dota_hero_tinker","npc_dota_hero_sniper","npc_dota_hero_necrolyte","npc_dota_hero_warlock","npc_dota_hero_beastmaster","npc_dota_hero_queenofpain","npc_dota_hero_venomancer","npc_dota_hero_faceless_void","npc_dota_hero_skeleton_king","npc_dota_hero_death_prophet","npc_dota_hero_phantom_assassin","npc_dota_hero_pugna","npc_dota_hero_templar_assassin","npc_dota_hero_viper","npc_dota_hero_luna","npc_dota_hero_dragon_knight","npc_dota_hero_dazzle","npc_dota_hero_rattletrap","npc_dota_hero_leshrac","npc_dota_hero_furion","npc_dota_hero_life_stealer","npc_dota_hero_dark_seer","npc_dota_hero_clinkz","npc_dota_hero_omniknight","npc_dota_hero_enchantress","npc_dota_hero_huskar","npc_dota_hero_night_stalker","npc_dota_hero_broodmother","npc_dota_hero_bounty_hunter","npc_dota_hero_weaver","npc_dota_hero_jakiro","npc_dota_hero_batrider","npc_dota_hero_chen","npc_dota_hero_spectre","npc_dota_hero_ancient_apparition","npc_dota_hero_doom_bringer","npc_dota_hero_ursa","npc_dota_hero_spirit_breaker","npc_dota_hero_gyrocopter","npc_dota_hero_alchemist","npc_dota_hero_invoker","npc_dota_hero_silencer","npc_dota_hero_obsidian_destroyer","npc_dota_hero_lycan","npc_dota_hero_brewmaster","npc_dota_hero_shadow_demon","npc_dota_hero_lone_druid","npc_dota_hero_chaos_knight","npc_dota_hero_meepo","npc_dota_hero_treant","npc_dota_hero_ogre_magi","npc_dota_hero_undying","npc_dota_hero_rubick","npc_dota_hero_disruptor","npc_dota_hero_nyx_assassin","npc_dota_hero_naga_siren","npc_dota_hero_keeper_of_the_light","npc_dota_hero_wisp","npc_dota_hero_visage","npc_dota_hero_slark","npc_dota_hero_medusa","npc_dota_hero_troll_warlord","npc_dota_hero_centaur","npc_dota_hero_magnataur","npc_dota_hero_shredder","npc_dota_hero_bristleback","npc_dota_hero_tusk","npc_dota_hero_skywrath_mage","npc_dota_hero_abaddon","npc_dota_hero_elder_titan","npc_dota_hero_legion_commander","npc_dota_hero_techies","npc_dota_hero_ember_spirit","npc_dota_hero_earth_spirit","npc_dota_hero_abyssal_underlord","npc_dota_hero_terrorblade","npc_dota_hero_phoenix","npc_dota_hero_oracle","npc_dota_hero_winter_wyvern","npc_dota_hero_arc_warden","npc_dota_hero_monkey_king","npc_dota_hero_dark_willow","npc_dota_hero_pangolier","npc_dota_hero_grimstroke","npc_dota_hero_void_spirit","npc_dota_hero_snapfire","npc_dota_hero_mars","npc_dota_hero_hoodwink","npc_dota_hero_dawnbreaker"}
 -- Contains 121 heroes, up to date to 7.30
 
-heroesCustom = {"npc_dota_hero_antimage","npc_dota_hero_axe","npc_dota_hero_bane","npc_dota_hero_bloodseeker","npc_dota_hero_crystal_maiden","npc_dota_hero_drow_ranger","npc_dota_hero_earthshaker","npc_dota_hero_juggernaut","npc_dota_hero_mirana","npc_dota_hero_morphling","npc_dota_hero_nevermore","npc_dota_hero_phantom_lancer","npc_dota_hero_puck","npc_dota_hero_pudge","npc_dota_hero_razor","npc_dota_hero_sand_king","npc_dota_hero_storm_spirit","npc_dota_hero_sven","npc_dota_hero_tiny","npc_dota_hero_vengefulspirit","npc_dota_hero_windrunner","npc_dota_hero_zuus","npc_dota_hero_kunkka","npc_dota_hero_lina","npc_dota_hero_lion","npc_dota_hero_shadow_shaman","npc_dota_hero_slardar","npc_dota_hero_tidehunter","npc_dota_hero_witch_doctor","npc_dota_hero_lich","npc_dota_hero_riki","npc_dota_hero_enigma","npc_dota_hero_tinker","npc_dota_hero_sniper","npc_dota_hero_necrolyte","npc_dota_hero_warlock","npc_dota_hero_beastmaster","npc_dota_hero_queenofpain","npc_dota_hero_venomancer","npc_dota_hero_faceless_void","npc_dota_hero_skeleton_king","npc_dota_hero_death_prophet","npc_dota_hero_phantom_assassin","npc_dota_hero_pugna","npc_dota_hero_templar_assassin","npc_dota_hero_luna","npc_dota_hero_dragon_knight","npc_dota_hero_dazzle","npc_dota_hero_rattletrap","npc_dota_hero_leshrac","npc_dota_hero_furion","npc_dota_hero_life_stealer","npc_dota_hero_dark_seer","npc_dota_hero_clinkz","npc_dota_hero_omniknight","npc_dota_hero_huskar","npc_dota_hero_night_stalker","npc_dota_hero_broodmother","npc_dota_hero_bounty_hunter","npc_dota_hero_weaver","npc_dota_hero_jakiro","npc_dota_hero_batrider","npc_dota_hero_spectre","npc_dota_hero_doom_bringer","npc_dota_hero_ursa","npc_dota_hero_spirit_breaker","npc_dota_hero_gyrocopter","npc_dota_hero_alchemist","npc_dota_hero_invoker","npc_dota_hero_obsidian_destroyer","npc_dota_hero_brewmaster","npc_dota_hero_shadow_demon","npc_dota_hero_lone_druid","npc_dota_hero_chaos_knight","npc_dota_hero_meepo","npc_dota_hero_treant","npc_dota_hero_ogre_magi","npc_dota_hero_undying","npc_dota_hero_rubick","npc_dota_hero_disruptor","npc_dota_hero_nyx_assassin","npc_dota_hero_naga_siren","npc_dota_hero_keeper_of_the_light","npc_dota_hero_slark","npc_dota_hero_medusa","npc_dota_hero_troll_warlord","npc_dota_hero_centaur","npc_dota_hero_magnataur","npc_dota_hero_shredder","npc_dota_hero_bristleback","npc_dota_hero_tusk","npc_dota_hero_skywrath_mage","npc_dota_hero_abaddon","npc_dota_hero_elder_titan","npc_dota_hero_legion_commander","npc_dota_hero_techies","npc_dota_hero_ember_spirit","npc_dota_hero_earth_spirit","npc_dota_hero_abyssal_underlord","npc_dota_hero_terrorblade","npc_dota_hero_phoenix","npc_dota_hero_oracle","npc_dota_hero_winter_wyvern","npc_dota_hero_arc_warden","npc_dota_hero_monkey_king","npc_dota_hero_dark_willow","npc_dota_hero_pangolier","npc_dota_hero_grimstroke","npc_dota_hero_void_spirit","npc_dota_hero_snapfire","npc_dota_hero_mars","npc_dota_hero_hoodwink","npc_dota_hero_dawnbreaker"}
--- Contains 113 heroes, 8 heroes have been removed
--- Removed heroes: "npc_dota_hero_wisp","npc_dota_hero_lycan","npc_dota_hero_viper","npc_dota_hero_ancient_apparition","npc_dota_hero_chen","npc_dota_hero_enchantress","npc_dota_hero_silencer","npc_dota_hero_visage"
+heroesCustom = {"npc_dota_hero_antimage","npc_dota_hero_axe","npc_dota_hero_bane","npc_dota_hero_bloodseeker","npc_dota_hero_crystal_maiden","npc_dota_hero_drow_ranger","npc_dota_hero_earthshaker","npc_dota_hero_juggernaut","npc_dota_hero_mirana","npc_dota_hero_morphling","npc_dota_hero_nevermore","npc_dota_hero_phantom_lancer","npc_dota_hero_puck","npc_dota_hero_pudge","npc_dota_hero_razor","npc_dota_hero_sand_king","npc_dota_hero_storm_spirit","npc_dota_hero_sven","npc_dota_hero_tiny","npc_dota_hero_vengefulspirit","npc_dota_hero_windrunner","npc_dota_hero_zuus","npc_dota_hero_kunkka","npc_dota_hero_lina","npc_dota_hero_lion","npc_dota_hero_shadow_shaman","npc_dota_hero_slardar","npc_dota_hero_tidehunter","npc_dota_hero_witch_doctor","npc_dota_hero_lich","npc_dota_hero_riki","npc_dota_hero_enigma","npc_dota_hero_tinker","npc_dota_hero_sniper","npc_dota_hero_necrolyte","npc_dota_hero_warlock","npc_dota_hero_beastmaster","npc_dota_hero_queenofpain","npc_dota_hero_venomancer","npc_dota_hero_faceless_void","npc_dota_hero_skeleton_king","npc_dota_hero_death_prophet","npc_dota_hero_phantom_assassin","npc_dota_hero_pugna","npc_dota_hero_templar_assassin","npc_dota_hero_luna","npc_dota_hero_dragon_knight","npc_dota_hero_dazzle","npc_dota_hero_rattletrap","npc_dota_hero_leshrac","npc_dota_hero_furion","npc_dota_hero_life_stealer","npc_dota_hero_dark_seer","npc_dota_hero_clinkz","npc_dota_hero_omniknight","npc_dota_hero_huskar","npc_dota_hero_night_stalker","npc_dota_hero_broodmother","npc_dota_hero_bounty_hunter","npc_dota_hero_weaver","npc_dota_hero_jakiro","npc_dota_hero_batrider","npc_dota_hero_doom_bringer","npc_dota_hero_ursa","npc_dota_hero_spirit_breaker","npc_dota_hero_gyrocopter","npc_dota_hero_alchemist","npc_dota_hero_invoker","npc_dota_hero_obsidian_destroyer","npc_dota_hero_brewmaster","npc_dota_hero_shadow_demon","npc_dota_hero_lone_druid","npc_dota_hero_chaos_knight","npc_dota_hero_meepo","npc_dota_hero_treant","npc_dota_hero_ogre_magi","npc_dota_hero_undying","npc_dota_hero_rubick","npc_dota_hero_disruptor","npc_dota_hero_nyx_assassin","npc_dota_hero_naga_siren","npc_dota_hero_keeper_of_the_light","npc_dota_hero_slark","npc_dota_hero_medusa","npc_dota_hero_troll_warlord","npc_dota_hero_centaur","npc_dota_hero_magnataur","npc_dota_hero_shredder","npc_dota_hero_bristleback","npc_dota_hero_tusk","npc_dota_hero_skywrath_mage","npc_dota_hero_abaddon","npc_dota_hero_elder_titan","npc_dota_hero_legion_commander","npc_dota_hero_techies","npc_dota_hero_ember_spirit","npc_dota_hero_earth_spirit","npc_dota_hero_abyssal_underlord","npc_dota_hero_terrorblade","npc_dota_hero_phoenix","npc_dota_hero_oracle","npc_dota_hero_winter_wyvern","npc_dota_hero_arc_warden","npc_dota_hero_monkey_king","npc_dota_hero_dark_willow","npc_dota_hero_pangolier","npc_dota_hero_grimstroke","npc_dota_hero_void_spirit","npc_dota_hero_snapfire","npc_dota_hero_mars","npc_dota_hero_hoodwink","npc_dota_hero_dawnbreaker"}
+-- Contains 112 heroes, 9 heroes have been removed
+-- Removed heroes: "npc_dota_hero_wisp","npc_dota_hero_lycan","npc_dota_hero_viper","npc_dota_hero_ancient_apparition","npc_dota_hero_chen","npc_dota_hero_enchantress","npc_dota_hero_silencer","npc_dota_hero_visage","npc_dota_hero_spectre"
 
-heroesTest = {"npc_dota_hero_pugna","npc_dota_hero_alchemist"}
+heroesTest = {"npc_dota_hero_naga_siren","npc_dota_hero_windrunner"}
 
 function Precache( context )
 --	[[
@@ -95,20 +97,41 @@ function ResetAbilities( eventInfo )
 	if eventInfo.abilityname == "item_tpscroll" then
 		local teleport = caster:GetItemInSlot( 15 )
 		if teleport ~= nil then
-			-- Town Portal Scroll mana cost 0 in npc_items_custom.txt
 --			caster:GiveMana( 75 )
 			teleport:EndCooldown()
 		end
 	else
 		local ability = caster:FindAbilityByName( eventInfo.abilityname )
 		if ability ~= nil then
---			Timers:CreateTimer( {
---				endTime = 0.05, callback = function()
-					caster:GiveMana( 10000 )
-					ability:EndCooldown()
-					ability:RefreshCharges()
---				end
---			} )
+			caster:GiveMana( 10000 )
+			ability:EndCooldown()
+			ability:RefreshCharges()
+
+			-- Balance Leshrac
+			if eventInfo.abilityname == "leshrac_diabolic_edict" then
+				ability:StartCooldown( 1.0 )
+			end
+
+			-- Balance Razor
+			if eventInfo.abilityname == "razor_eye_of_the_storm" then
+				ability:StartCooldown( 4.9 )
+			end
+
+			-- Deal with Lone Druid
+			if eventInfo.abilityname == "lone_druid_savage_roar" then
+				local bear = spiritBears[caster:GetPlayerID() + 1]
+				if bear ~= "empty" then
+					local bearAbility = bear:FindAbilityByName( "lone_druid_savage_roar_bear" )
+					if bearAbility ~= nil then
+						Timers:CreateTimer( {
+							endTime = 0, callback = function()
+								bearAbility:EndCooldown()
+								bearAbility:RefreshCharges()
+							end
+						} )
+					end
+				end
+			end
 		end
 
 		-- Deal with Wraith King
@@ -121,27 +144,55 @@ function ResetAbilities( eventInfo )
 	end
 end
 
+function ResetNeutralAbilities( eventInfo )
+	local caster = EntIndexToHScript( eventInfo.caster_entindex )
+--	GameRules:SendCustomMessage( "Ability used: " .. eventInfo.abilityname, 0, 0 )
+
+	-- Only include creeps that are controlled by a player
+	if caster:GetPlayerOwnerID() ~= -1 then
+		if eventInfo.abilityname == "item_tpscroll" then
+			local teleport = caster:GetItemInSlot( 15 )
+			if teleport ~= nil then
+--				caster:GiveMana( 75 )
+				teleport:EndCooldown()
+			end
+		else
+			local ability = caster:FindAbilityByName( eventInfo.abilityname )
+			if ability ~= nil then
+				caster:GiveMana( 10000 )
+				ability:EndCooldown()
+				ability:RefreshCharges()
+
+				-- Deal with Spirit Bear
+				if eventInfo.abilityname == "lone_druid_savage_roar_bear" then
+					local hero = PlayerResource:GetSelectedHeroEntity( caster:GetPlayerOwnerID() )
+					if hero ~= nil then
+						local heroAbility = hero:FindAbilityByName( "lone_druid_savage_roar" )
+						if heroAbility ~= nil then
+							Timers:CreateTimer( {
+								endTime = 0, callback = function()
+									heroAbility:EndCooldown()
+									heroAbility:RefreshCharges()
+								end
+							} )
+						end
+					end
+				end
+			end
+		end
+	end
+end
+
 function OnNpcSpawn( eventInfo )
 	local spawnedUnit = EntIndexToHScript( eventInfo.entindex )
-	if spawnedUnit:IsRealHero() and not spawnedUnit:IsTempestDouble() then
+
+	if string.find( spawnedUnit:GetUnitName(), "npc_dota_lone_druid_bear" ) ~= nil then
+		spiritBears[spawnedUnit:GetPlayerOwnerID() + 1] = spawnedUnit
+	elseif spawnedUnit:IsRealHero() and not spawnedUnit:IsTempestDouble() then
 		if spawnedUnit.HasDied == 1 then
 
 			local currentHero = spawnedUnit:GetName()
 			local player = spawnedUnit:GetPlayerID()
-
-			local hasAghanimsBlessing = spawnedUnit:HasModifier( "modifier_item_ultimate_scepter_consumed" ) or spawnedUnit:HasModifier( "modifier_item_ultimate_scepter_consumed_alchemist" )
-			local hasAghanimsShard = spawnedUnit:HasModifier( "modifier_item_aghanims_shard" )
-			local hasMoonShard = spawnedUnit:HasModifier( "modifier_item_moon_shard_consumed" )
-
-			local items = {}
-			for i = 1, 17, 1 do
-				local item = spawnedUnit:GetItemInSlot( i - 1 )
-				if item ~= nil then
-					items[i] = item
-				else
-					items[i] = "empty"
-				end
-			end
 
 			local randomHero = heroesCustom[math.random( 1, #heroesCustom )]
 			while randomHero == currentHero do
@@ -150,12 +201,61 @@ function OnNpcSpawn( eventInfo )
 
 			-- Precache the new hero to prevent a lag spike
 			PrecacheUnitByNameAsync( randomHero, function()
+				
+				-- Drop Spirit Bear's items if the player died with Lone Druid
+				if currentHero == "npc_dota_hero_lone_druid" then
+					local spiritBear = spiritBears[player + 1]
+					if spiritBear ~= "empty" then
+						local bearItems = {}
+
+						-- Inventory and backpack
+						for i = 1, 9, 1 do
+							local bearItem = spiritBear:GetItemInSlot( i - 1 )
+							if bearItem ~= nil then
+								bearItems[#bearItems + 1] = bearItem
+							end
+						end
+
+						-- Town Portal Scrolls and neutral item
+						for i = 16, 17, 1 do
+							local bearItem = spiritBear:GetItemInSlot( i - 1 )
+							if bearItem ~= nil then
+								bearItems[#bearItems + 1] = bearItem
+							end
+						end
+
+						-- Drop Spirit Bear's items
+						for index, bearItem in ipairs( bearItems ) do
+							spiritBear:DropItemAtPositionImmediate( bearItem, spawnedUnit:GetAbsOrigin() + Vector( (index % 4) * 40, math.floor(index / 4) * -60, 0 ) )
+						end
+
+						-- Forget Spirit Bear
+						spiritBears[player + 1] = "empty"
+					end
+				end
+
 				-- Drop items outside the map
+				local items = {}
+
+				for i = 1, 17, 1 do
+					local item = spawnedUnit:GetItemInSlot( i - 1 )
+					if item ~= nil then
+						items[i] = item
+					else
+						items[i] = "empty"
+					end
+				end
+
 				for index, item in ipairs( items ) do
 					if item ~= "empty" then
 						spawnedUnit:DropItemAtPositionImmediate( item, Vector( 999999, 999999, 999999 ) )
 					end
 				end
+
+				-- Record item-based buffs
+				local hasAghanimsBlessing = spawnedUnit:HasModifier( "modifier_item_ultimate_scepter_consumed" ) or spawnedUnit:HasModifier( "modifier_item_ultimate_scepter_consumed_alchemist" )
+				local hasAghanimsShard = spawnedUnit:HasModifier( "modifier_item_aghanims_shard" )
+				local hasMoonShard = spawnedUnit:HasModifier( "modifier_item_moon_shard_consumed" )
 
 				-- Replace the hero
 				local reliableGold = PlayerResource:GetReliableGold( player )
@@ -248,6 +348,7 @@ function Activate()
 
 	ListenToGameEvent("entity_killed", RespawnTime, nil)
 	ListenToGameEvent("dota_player_used_ability", ResetAbilities, nil)
+	ListenToGameEvent("dota_non_player_used_ability", ResetNeutralAbilities, nil)
 	ListenToGameEvent("npc_spawned", OnNpcSpawn, nil)
 	ListenToGameEvent("game_rules_state_change", OnGameStateChange, nil)
 end

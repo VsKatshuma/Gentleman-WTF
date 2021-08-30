@@ -1,5 +1,15 @@
 "DOTAAbilities"
 {
+	"item_aghanims_shard"
+	{
+		"ItemInitialStockTime"				"690.0"
+	}
+
+	"item_aghanims_shard_roshan"
+	{
+		"ItemInitialStockTime"				"690.0"
+	}
+
 	"item_tpscroll"
 	{
 		"AbilityCooldown"				"0.0"
@@ -29,7 +39,7 @@
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"tp_cooldown"			"0.0"
+				"tp_cooldown"			"0"
 			}
 		}
 	}
@@ -57,14 +67,14 @@
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"tp_cooldown"			"0.0"
+				"tp_cooldown"			"0"
 			}
 		}
 	}
 
 	"item_unstable_wand"
 	{
-		"AbilityCooldown"				"5.0"
+		"AbilityCooldown"				"10.0"
 	}
 
 	"item_arcane_ring"
@@ -105,5 +115,23 @@
 	"item_pipe"
 	{
 		"AbilityCooldown"				"24.0"
+	}
+
+	"item_meteor_hammer"
+	{
+		"AbilityCooldown"				"12.0"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"burn_dps_buildings"		"30"
+			}
+			"12"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"impact_damage_buildings"	"50"
+			}
+		}
 	}
 }

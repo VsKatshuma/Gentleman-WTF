@@ -74,6 +74,10 @@
 	{
 		"override_hero" "npc_dota_hero_puck"
 		"Ability3" "banned_ability"
+		"Ability4" "generic_hidden"
+		"Ability5" "puck_ethereal_jaunt"
+		"Ability6" "generic_hidden"
+		"Ability7" "puck_dream_coil"
 	}
 
 	"npc_dota_hero_silencer"

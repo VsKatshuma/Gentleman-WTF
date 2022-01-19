@@ -1,0 +1,1624 @@
+<root>
+
+    <styles>
+        <include src="file://{resources}/styles/custom_game/hero_selection.css" />
+    </styles>
+
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/hero_selection.js" />
+    </scripts>
+
+    <snippets>
+        <snippet name="npc_dota_hero_antimage">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/anti_mage_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Anti-Mage" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_axe">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/axe_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Axe" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_bane">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/bane_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Bane" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_bloodseeker">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/bloodseeker_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Bloodseeker" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_crystal_maiden">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/crystal_maiden_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Crystal Maiden" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_drow_ranger">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/drow_ranger_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Drow Ranger" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_earthshaker">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/earthshaker_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Earthshaker" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_juggernaut">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/juggernaut_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Juggernaut" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_mirana">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/mirana_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Mirana" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_morphling">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/morphling_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Morphling" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_nevermore">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/shadow_fiend_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Shadow Fiend" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_phantom_lancer">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/phantom_lancer_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Phantom Lancer" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_puck">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/puck_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Puck" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_pudge">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/pudge_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Pudge" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_razor">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/razor_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Razor" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_sand_king">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/sand_king_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Sand King" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_storm_spirit">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/storm_spirit_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Storm Spirit" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_sven">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/sven_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Sven" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_tiny">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/tiny_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Tiny" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_vengefulspirit">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/vengeful_spirit_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Vengeful Spirit" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_windrunner">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/windranger_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Windranger" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_zuus">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/zeus_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Zeus" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_kunkka">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/kunkka_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Kunkka" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_lina">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/lina_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Lina" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_lion">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/lion_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Lion" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_shadow_shaman">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/shadow_shaman_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Shadow Shaman" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_slardar">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/slardar_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Slardar" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_tidehunter">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/tidehunter_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Tidehunter" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_witch_doctor">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/witch_doctor_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Witch Doctor" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_lich">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/lich_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Lich" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_riki">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/riki_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Riki" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_enigma">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/enigma_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Enigma" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_tinker">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/tinker_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Tinker" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_sniper">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/sniper_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Sniper" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_necrolyte">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/necrophos_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Necrophos" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_warlock">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/warlock_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Warlock" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_beastmaster">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/beastmaster_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Beastmaster" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_queenofpain">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/queen_of_pain_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Queen of Pain" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_venomancer">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/venomancer_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Venomancer" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_faceless_void">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/faceless_void_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Faceless Void" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_skeleton_king">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/wraith_king_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Wraith King" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_death_prophet">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/death_prophet_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Death Prophet" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_phantom_assassin">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/phantom_assassin_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Phantom Assassin" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_pugna">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/pugna_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Pugna" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_templar_assassin">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/templar_assassin_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Templar Assassin" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_viper">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/viper_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Viper" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_luna">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/luna_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Luna" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_dragon_knight">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/dragon_knight_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Dragon Knight" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_dazzle">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/dazzle_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Dazzle" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_rattletrap">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/clockwerk_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Clockwerk" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_leshrac">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/leshrac_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Leshrac" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_furion">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/natures_prophet_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Nature's Prophet" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_life_stealer">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/lifestealer_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Lifestealer" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_dark_seer">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/dark_seer_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Dark Seer" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_clinkz">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/clinkz_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Clinkz" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_omniknight">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/omniknight_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Omniknight" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_enchantress">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/enchantress_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Enchantress" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_huskar">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/huskar_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Huskar" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_night_stalker">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/night_stalker_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Night Stalker" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_broodmother">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/broodmother_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Broodmother" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_bounty_hunter">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/bounty_hunter_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Bounty Hunter" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_weaver">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/weaver_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Weaver" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_jakiro">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/jakiro_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Jakiro" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_batrider">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/batrider_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Batrider" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_chen">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/chen_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Chen" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_spectre">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/spectre_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Spectre" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_ancient_apparition">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/ancient_apparition_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Ancient Apparition" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_doom_bringer">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/doom_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Doom" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_ursa">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/ursa_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Ursa" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_spirit_breaker">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/spirit_breaker_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Spirit Breaker" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_gyrocopter">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/gyrocopter_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Gyrocopter" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_alchemist">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/alchemist_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Alchemist" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_invoker">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/invoker_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Invoker" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_silencer">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/silencer_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Silencer" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_obsidian_destroyer">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/outworld_destroyer_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Outworld Destroyer" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_lycan">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/lycan_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Lycan" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_brewmaster">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/brewmaster_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Brewmaster" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_shadow_demon">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/shadow_demon_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Shadow Demon" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_lone_druid">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/lone_druid_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Lone Druid" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_chaos_knight">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/chaos_knight_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Chaos Knight" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_meepo">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/meepo_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Meepo" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_treant">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/treant_protector_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Treant Protector" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_ogre_magi">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/ogre_magi_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Ogre Magi" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_undying">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/undying_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Undying" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_rubick">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/rubick_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Rubick" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_disruptor">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/disruptor_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Disruptor" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_nyx_assassin">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/nyx_assassin_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Nyx Assassin" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_naga_siren">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/naga_siren_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Naga Siren" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_keeper_of_the_light">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/keeper_of_the_light_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Keeper of the Light" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_wisp">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/io_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Io" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_visage">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/visage_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Visage" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_slark">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/slark_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Slark" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_medusa">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/medusa_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Medusa" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_troll_warlord">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/troll_warlord_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Troll Warlord" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_centaur">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/centaur_warrunner_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Centaur Warrunner" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_magnataur">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/magnus_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Magnus" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_shredder">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/timbersaw_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Timbersaw" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_bristleback">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/bristleback_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Bristleback" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_tusk">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/tusk_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Tusk" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_skywrath_mage">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/skywrath_mage_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Skywrath Mage" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_abaddon">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/abaddon_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Abaddon" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_elder_titan">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/elder_titan_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Elder Titan" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_legion_commander">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/legion_commander_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Legion Commander" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_techies">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/techies_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Techies" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_ember_spirit">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/ember_spirit_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Ember Spirit" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_earth_spirit">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/earth_spirit_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Earth Spirit" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_abyssal_underlord">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/underlord_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Underlord" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_terrorblade">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/terrorblade_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Terrorblade" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_phoenix">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/phoenix_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Phoenix" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_oracle">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/oracle_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Oracle" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_winter_wyvern">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/winter_wyvern_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Winter Wyvern" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_arc_warden">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/arc_warden_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Arc Warden" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_monkey_king">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/monkey_king_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Monkey King" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_dark_willow">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/dark_willow_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Dark Willow" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_pangolier">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/pangolier_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Pangolier" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_grimstroke">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/grimstroke_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Grimstroke" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_void_spirit">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/void_spirit_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Void Spirit" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_snapfire">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/snapfire_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Snapfire" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_mars">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/mars_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Mars" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_hoodwink">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/hoodwink_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Hoodwink" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_dawnbreaker">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/dawnbreaker_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Dawnbreaker" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <snippet name="npc_dota_hero_marci">
+            <Panel>
+                <Panel class="heroOptionBackground">
+                    <Panel class="heroImageContainer">
+                        <Image class="heroImage" src="file://{resources}/images/custom_game/marci_icon.png" />
+                    </Panel>
+                    <Panel class="heroButtonContainer">
+                        <TextButton class="heroButton" text="#Marci" />
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+    </snippets>
+
+    <Panel class="rootPanel" hittest="false">
+        <Panel class="heroSelectionContainer">
+            <Panel class="textContainer">
+                <Panel class="textBackground">
+                    <Panel class="textInformation">
+                        <Label class="mainText" text="#Select your next hero" />
+                        <Label class="subText" text="#If you do not choose a hero, or if you buy back before you choose," />
+                        <Label class="subText" text="#you will respawn randomly as one of the three options." />
+                    </Panel>
+                </Panel>
+            </Panel>
+            <Panel class="heroContainer">
+                <Panel id="hero1">
+
+                </Panel>
+                <Panel id="hero2">
+
+                </Panel>
+                <Panel id="hero3">
+
+                </Panel>
+            </Panel>
+        </Panel>
+    </Panel>
+
+</root>

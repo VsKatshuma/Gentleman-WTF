@@ -50,5 +50,6 @@
 	"banned_ability"
 	{
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"invoker_empty1"
 	}
 }

@@ -1,5 +1,53 @@
 "DOTAAbilities"
 {
+	"monkey_king_tree_dance"
+	{
+		"AbilityCooldown"				"0"
+	}
+
+	"morphling_adaptive_strike_agi"
+	{
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"shared_cooldown"		"0"
+			}
+		}
+	}
+
+	"morphling_adaptive_strike_str"
+	{
+		"AbilitySpecial"
+		{
+			"06"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"shared_cooldown"		"0"
+			}
+		}
+	}
+
+	"rubick_telekinesis"
+	{
+		"AbilityCooldown"				"0"
+	}
+
+	"spirit_breaker_charge_of_darkness"
+	{
+		"AbilityCooldown"				"0"
+		"AbilitySpecial"
+		{
+			"06"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"scepter_cooldown"		"0"
+				"RequiresScepter"		"1"
+			}
+		}
+	}
+
 	"rattletrap_rocket_flare"
 	{
 		"AbilityCastRange"				"675"
@@ -13,6 +61,18 @@
 	"windrunner_gale_force"
 	{
 		"AbilityCastRange"				"1500"
+	}
+
+	"bane_nightmare"
+	{
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"nightmare_tick_damage"		"25 35 45 55"
+			}
+		}
 	}
 
 	"brewmaster_storm_cyclone"
@@ -124,6 +184,24 @@
 		}
 	}
 
+	"warlock_rain_of_chaos"
+	{
+		"AbilityCastPoint"				"1.0 1.0 1.0"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"stun_duration"			"1.5"
+			}
+			"20"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"stun_duration_tooltip"		"1.5"
+			}
+		}
+	}
+
 	"special_bonus_unique_wraith_king_5"
 	{
 		"AbilitySpecial"
@@ -159,16 +237,16 @@
 	"item_recipe_orchid" "REMOVE"
 	"item_orchid" "REMOVE"
 
-	"item_recipe_dagon" "REMOVE"
-	"item_recipe_dagon_2" "REMOVE"
-	"item_recipe_dagon_3" "REMOVE"
-	"item_recipe_dagon_4" "REMOVE"
-	"item_recipe_dagon_5" "REMOVE"
-	"item_dagon" "REMOVE"
-	"item_dagon_2" "REMOVE"
-	"item_dagon_3" "REMOVE"
-	"item_dagon_4" "REMOVE"
-	"item_dagon_5" "REMOVE"
+	//"item_recipe_dagon" "REMOVE"
+	//"item_recipe_dagon_2" "REMOVE"
+	//"item_recipe_dagon_3" "REMOVE"
+	//"item_recipe_dagon_4" "REMOVE"
+	//"item_recipe_dagon_5" "REMOVE"
+	//"item_dagon" "REMOVE"
+	//"item_dagon_2" "REMOVE"
+	//"item_dagon_3" "REMOVE"
+	//"item_dagon_4" "REMOVE"
+	//"item_dagon_5" "REMOVE"
 
 	"item_recipe_ethereal_blade" "REMOVE"
 	"item_ethereal_blade" "REMOVE"

@@ -17,14 +17,16 @@
 		"items"
 		{
 			"item_keen_optic"			 "1"
+			//"item_ironwood_tree"			 "1"
 			"item_ocean_heart"			 "1"
 			"item_broom_handle"			 "1"
 			"item_trusty_shovel"		  	 "1"
-			"item_arcane_ring"			 "1"
+			//"item_arcane_ring"			 "1"
 			"item_chipped_vest"			 "1"
 			"item_possessed_mask"			 "1"
 			"item_mysterious_hat"			 "1"
 			"item_unstable_wand"			 "1"
+			//"item_pogo_stick"			 "1"
 		}
 	}
 	"2"
@@ -106,8 +108,11 @@
 			"item_spell_prism"			 "1"
 			"item_ascetic_cap"			 "1"
 			"item_heavy_blade"			 "1"
+			//"item_flicker"				 "1"
+			//"item_ninja_gear"			 "1"
 			"item_the_leveller"			 "1"
 			"item_spy_gadget"			 "1"
+			//"item_trickster_cloak"			 "1"
 			"item_stormcrafter"			 "1"
 			"item_penta_edged_sword"		 "1"
 		}
@@ -128,11 +133,13 @@
 
 		"items"
 		{
+			//"item_force_boots"			 "1"
 			"item_desolator_2"			 "1"
 			"item_seer_stone"			 "1"
 			"item_mirror_shield"			 "1"
 			"item_apex"				 "1"
 			"item_demonicon"			 "1"
+			//"item_fallen_sky"			 "1"
 			"item_force_field"			 "1"
 			"item_pirate_hat"			 "1"
 			"item_ex_machina"			 "1"

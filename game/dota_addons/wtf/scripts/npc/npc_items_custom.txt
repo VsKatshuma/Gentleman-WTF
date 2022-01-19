@@ -75,51 +75,67 @@
 	"item_unstable_wand"
 	{
 		"AbilityCooldown"				"10.0"
+		"AbilityManaCost"				"0"
 	}
 
-	"item_arcane_ring"
+	"item_essence_ring"
 	{
-		"AbilityCooldown"				"8.0"
+		"AbilityManaCost"				"0"
+	}
+
+	"item_paintball"
+	{
+		"AbilityManaCost"				"0"
+	}
+
+	"item_heavy_blade"
+	{
+		"AbilityManaCost"				"0"
+	}
+
+	"item_stormcrafter"
+	{
+		"AbilityManaCost"				"0"
 	}
 
 	"item_arcane_boots"
 	{
-		"AbilityCooldown"				"8.0"
+		"AbilityCooldown"				"4.0"
 	}
 
 	"item_mekansm"
 	{
-		"AbilityCooldown"				"8.0"
+		"AbilityCooldown"				"4.0"
+		"AbilityManaCost"				"0"
 	}
 
 	"item_guardian_greaves"
 	{
-		"AbilityCooldown"				"8.0"
-	}
-
-	"item_faerie_fire"
-	{
-		"AbilityCooldown"				"0.0"
-	}
-
-	"item_hood_of_defiance"
-	{
-		"AbilityCooldown"				"24.0"
-	}
-
-	"item_eternal_shroud"
-	{
-		"AbilityCooldown"				"24.0"
+		"AbilityCooldown"				"4.0"
 	}
 
 	"item_pipe"
 	{
-		"AbilityCooldown"				"24.0"
+		"AbilityCooldown"				"12.0"
+		"AbilityManaCost"				"0"
+	}
+
+	"item_hood_of_defiance"
+	{
+		"AbilityCooldown"				"12.0"
+		"AbilityManaCost"				"0"
+	}
+
+	"item_eternal_shroud"
+	{
+		"AbilityCooldown"				"12.0"
+		"AbilityManaCost"				"0"
 	}
 
 	"item_meteor_hammer"
 	{
 		"AbilityCooldown"				"12.0"
+		"AbilityManaCost"				"0"
 		"AbilitySpecial"
 		{
 			"04"
@@ -133,5 +149,97 @@
 				"impact_damage_buildings"	"50"
 			}
 		}
+	}
+
+	"item_faerie_fire"
+	{
+		"AbilityCooldown"				"0.0"
+	}
+
+	"item_dust"
+	{
+		"AbilityCooldown"				"8.0"
+	}
+
+	"item_mask_of_madness"
+	{
+		"AbilityManaCost"				"0"
+	}
+
+	"item_veil_of_discord"
+	{
+		"AbilityManaCost"				"0"
+	}
+
+	"item_dagon"
+	{
+		"AbilityCooldown"				"3.0"
+		"AbilityManaCost"				"0"
+	}
+
+	"item_dagon_2"
+	{
+		"AbilityCooldown"				"3.0"
+		"AbilityManaCost"				"0"
+	}
+
+	"item_dagon_3"
+	{
+		"AbilityCooldown"				"3.0"
+		"AbilityManaCost"				"0"
+	}
+
+	"item_dagon_4"
+	{
+		"AbilityCooldown"				"3.0"
+		"AbilityManaCost"				"0"
+	}
+
+	"item_dagon_5"
+	{
+		"AbilityCooldown"				"3.0"
+		"AbilityManaCost"				"0"
+	}
+
+	"item_refresher"
+	{
+		"AbilityManaCost"				"0"
+	}
+
+	"item_blade_mail"
+	{
+		"AbilityCooldown"				"8.0"
+		"AbilityManaCost"				"0"
+	}
+
+	"item_lotus_orb"
+	{
+		"AbilityManaCost"				"0"
+	}
+
+	"item_manta"
+	{
+		"AbilityManaCost"				"0"
+	}
+
+	"item_shivas_guard"
+	{
+		"AbilityCooldown"				"5.0"
+		"AbilityManaCost"				"0"
+	}
+
+	"item_nullifier"
+	{
+		"AbilityManaCost"				"0"
+	}
+
+	"item_heavens_halberd"
+	{
+		"AbilityManaCost"				"0"
+	}
+
+	"item_mjollnir"
+	{
+		"AbilityManaCost"				"0"
 	}
 }

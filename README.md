@@ -6,4 +6,4 @@ Available on Steam Community at https://steamcommunity.com/sharedfiles/filedetai
 
 The Dota 2 scripting API is a largely unsupported mess that lacks many features and is poorly documented. To create a custom game, one must first install the optional DLC package for Dota 2 called **Dota 2 Workshop Tools DLC**.
 
-Creating an Addon using Dota 2 Tools creates two folders, one at `dota 2 beta/content/dota_addons` and the other at `dota 2 beta/game/dota_addons`. (Paths begin with the Dota 2 installation folder.) In this case, Gentleman WTF is stored as **wtf**, and its data can be found in the `content/dota_addons/wtf` and `game/dota_addons/wtf` folders.
+Creating an Addon using Dota 2 Tools creates two folders, one at `dota 2 beta/content/dota_addons` and the other at `dota 2 beta/game/dota_addons`. (Paths begin in the Dota 2 installation folder.) In this case, Gentleman WTF is stored as **wtf**, and its data can be found in the `content/dota_addons/wtf` and `game/dota_addons/wtf` folders.
